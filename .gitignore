@@ -1,0 +1,10 @@
+/db.sqlite3
+*.pyc
+/.settings
+/.project
+/.pydevproject
+/.idea/*
+*.*~
+
+.idea
+/static

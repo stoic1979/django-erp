@@ -1,0 +1,152 @@
+
+
+body{
+  background-image:url("company.png")
+}
+
+ .back{
+  background-image:url("company.png")
+}
+
+.logo-name{
+	width:500px;
+	text-align: 'center';
+	color: #E6B717;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .entry-title, .entry-title a {
+
+  
+	font-size: 25px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+
+}
+h1{
+  color: rgba(233, 80, 20, 0.37);
+	font-size:80px;
+	
+  }
+h2{
+  color: #009900;
+	font-size:70px;
+	text-align:'center';
+  }
+.subtitle{
+		width:700px;
+		height:35px;
+		color:#990000;
+		font-size:27px;
+}
+.subtitle-text{
+		text-align: 'right';
+}
+
+.heading-style{
+	 background-color:#115E8F
+}
+
+.title{
+	 color: rgba(233, 80, 20, 0.37);
+}
+
+.sidebar-menu{
+		width:250px;
+		height:500px;
+		margin-left:5px;
+		margin-top:10px;
+}
+
+.sidebar-dacoration{
+		border-width:1px;
+		border-style:solid;
+}
+.sidebar-menu-button{
+		width:246px;
+		height:40px;
+		margin-top:5px;
+		line-height:40px;
+		display:inline-block;
+		border-style:solid;
+		border-width: 0.50px;
+		border-color:#990;
+		text-align:center;
+		margin-left:1px;
+}
+
+.menu-button{
+    display:inline-block;
+    vertical-align: middle
+	border-color:#090;
+	border-width:1px;
+	width:120;
+	height:50;
+	text-align:center;
+	line-height:30px;
+	border-width:1px;
+    background-color:rgba(130, 195, 206, 0.15);
+	}
+.menu-button{
+	float:left;
+	padding:10px;
+	margin-right:10px;
+	
+}
+a:hover {
+		
+		color:#090;
+		text-decoration:none;
+		background-color:#BA9515;
+		border-style:dotted;
+}
+
+.menu-bar{
+  	 width:1335px;
+	 height:50px;
+	 margin-left:auto;
+	 margin-right:auto;
+	 background:rgba(175, 207, 205, 0) none repeat scroll 0% 0%;
+}
+.menubar-left{
+	width:800px;	
+}
+.menubar-right{
+	width:280px;
+	margin-left:235px;
+	margin-right:10px;
+}
+.menubar-left, .menubar-right{
+	float:left;
+
+}
+
+.custom-button{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

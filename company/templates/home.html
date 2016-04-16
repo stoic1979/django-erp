@@ -1,0 +1,67 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+		 {% load staticfiles %}
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel = "stylesheet" type = "text/css" href= "static/company.css">
+	<script>
+    </script>
+</head>
+<body>
+		<div ng-app="department" ng-controller="depart_controller" >
+		<div id="container">
+			<div class="heading-style">
+				<div class='logo-name'id = "head">
+					<h1 id="heading" align="center">COMPANY</h1>
+				</div>	
+				<div class='subtitle'>
+					<p align='right' font-family='Monospace'>This is company website....</p>
+				</div>
+			</div>
+		</div>
+		<div id="menu-container">
+			<div class="menu-bar">
+				<div class="menubar-left">
+								<a id = " company" class="menu-button" onclick = alert('company');>Company</a>	
+								<a class="menu-button" href = "home" >Home</a>	
+								<a class="menu-button" href = "carrier">Carrier</a>
+								<a class="menu-button" href = "aboutus">About us</a>		
+				</div>
+				<div class="menubar-right">
+									<a class="menu-button"  href = "newuser/signup";>Sign Up</a>	
+								    <a class="menu-button"  href = "user/login";>Login</a>		
+				</div>
+				<div class="clear"></div>			
+		     </div>
+		</div>
+			<div id = "sidebar" class="sidebar-menu sidebar-dacoration">
+				<div id="sidebar-menus">
+						<a id = "staff" class="sidebar-menu-button" href = "staff">Staff</a>	
+						<a id = "projects" class="sidebar-menu-button" href = "projects">Projects</a>	
+						<a id = "workhour" class="sidebar-menu-button" href = "workHoursManagement">Work hours Management</a>	
+					
+						<a id = "rev_exp" class="sidebar-menu-button" href = "revenue/expenses">Revenue/Expenses</a>	
+						<a id = "searchby" class="sidebar-menu-button" href = "searchby">Serach by</a>	
+						<a id = "sidebar7" class="sidebar-menu-button" href = "department">Sidebar7</a>	
+						<a id = "sidebar8" class="sidebar-menu-button">Sidebar8</a>	
+				</div>
+			</div>
+   </div>
+</body>
+<html>
+
+
+
+
+
+
+
+
+
+
+
+

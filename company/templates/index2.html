@@ -1,0 +1,97 @@
+
+<html>
+<head>
+<head>
+		 {% load staticfiles %}
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel = "stylesheet" type = "text/css" href= "static/company.css">
+        <script src="static/control.js"></script>
+</head>
+</head>
+<body>
+ <div id='user-login'> 
+	<div id='container'>
+			<div id='login-heading' class='login-heading-style'>
+				<div id='head'>
+					<h1 id="heading" class='login-heading-style-1' align="center">OMS</h1>
+				</div>	
+				<div class='subtitle login-heading-subtitle'>
+					<p align='right' class='login-heading-style-2' font-family='Monospace'>Office Management System....</p>
+				</div>
+			</div>
+	</div> 
+  	<div id = 'user-input'>
+    	  <div id='container' class='input-elements'>
+				<form > {% csrf_token %}  
+				<div id= 'user' >
+		  			<label for = 'username' class='input-elem text-white'>Username</label>
+    	  			<input type = 'text' id = 'username' class='input-elem'>
+    	 		</div>
+    		    <div id = 'pass'>
+    	 		  	<label for = 'password' class='input-elem text-white'>Password</label>
+    	  			<input type = 'text' id = 'password' class='input-elem'>
+         		</div>
+    	   		<div id="login">
+    	 		  	<a id='login-b' class='login-b' href='home'>Login</a>
+					
+    	   	    </div>
+			</from>
+   	 	  </div> 
+  	</div>
+
+
+<form action='department' method='POST'> {% csrf_token %}  
+    	  			<input type = 'text' id = 'test'  name = 'test' class='input-elem'>
+					<input type = submit class="btn btn-danger"/>
+			</from>
+
+
+
+</div>
+
+
+<div id='home-page' ng-app="department" ng-controller="depart_controller" >
+		<div id="container">
+			<div class="heading-style">
+				<div class='logo-name'id = "head">
+					<h1 id="heading" align="center">OMS</h1>
+				</div>	
+				<div class='subtitle'>
+					<p align='right' font-family='Monospace'>Office Management System....</p>
+				</div>
+			</div>
+		</div>
+		<div id="menu-container">
+			<div class="menu-bar">
+				<div class="menubar-left">
+								<a id = " company" class="menu-button" onclick = alert('company');>OMS</a>	
+								<a class="menu-button" href = "home" >Home</a>	
+								<a class="menu-button" href = "carrier">Reports</a>
+								<a class="menu-button" href = "aboutus">About us</a>		
+				</div>
+				<div class="menubar-right">
+									<a class="menu-button"  href = "newuser/signup";>Sign Up</a>	
+								    <a class="menu-button"  href = "user/login";>Login</a>		
+				</div>
+				<div class="clear"></div>			
+		     </div>
+		</div>
+			<div id = "sidebar" class="sidebar-menu sidebar-dacoration">
+				<div id="sidebar-menus">
+						<a id = "staff" class="sidebar-menu-button" href = "staff">Staff</a>	
+						<a id = "projects" class="sidebar-menu-button" href = "projects">Projects</a>	
+						<a id = "workhour" class="sidebar-menu-button" href = "workHoursManagement">Work hours Management</a>	
+					
+						<a id = "rev_exp" class="sidebar-menu-button" href = "revenue/expenses">Revenue/Expenses</a>	
+						<a id = "searchby" class="sidebar-menu-button" href = "searchby">Serach by</a>	
+						<a id = "sidebar7" class="sidebar-menu-button" href = "department">Sidebar7</a>	
+						<a id = "sidebar8" class="sidebar-menu-button">Sidebar8</a>	
+				</div>
+			</div>
+   </div>
+</body>
+<html>

@@ -1,0 +1,79 @@
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  	 {% load staticfiles %}
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel = "stylesheet" type = "text/css" href= "static/css/company.css">
+</head>
+<body>
+<h1 align = center>Welcome to department<h1>
+ <form method='home'>
+<table  width = 40%  align = 'center' top = 100>
+	<tr>
+		<td align = 'right' width = 35%><label for = ' id'>Id : </label></td>
+		<td align = 'center' width = 65%><input type = 'text' name = 'id'/></td>	
+	</tr>
+     <tr>
+		<td align = 'right' width = 35%><label for = ' name'>Name : </label></td>
+		<td align = 'center' width = 65%><input type = 'text' name = 'name'/></td>
+	</tr>
+	<tr>
+		<td align = 'right' width = 35%><label for = ' designation'>Designation : </label></td>
+		<td align = 'center' width = 65%>
+				<select name = 'designation' style = "width : 200px;">
+				<option value = "" selected = 'selected' > Select designation </option>	
+				<option value = "DIR">Director</option>
+				<option value = "DEV">Developer</option>
+				<option value = "PN">Peon</option>
+				<option value = "HR">HR</option>
+				<option value = "SecG">Security Guard</option>
+				<option value = "SW">Sweeper</option>
+			</select>
+		</td>	
+	</tr>
+	<tr>
+		<td align = 'right' width = 35%>
+			<label for = 'profile'> Work Profile : </label>
+		</td>
+		<td align = 'center' width = 65%>
+			<select name = 'profile' style = "width : 200px;">
+				<option value = "" selected = 'selected' > Select Profile </option>	
+				<option value = "C++">C++</option>
+				<option value = "PHP">PHP</option>
+				<option value = "JAVA">JAVA</option>
+				<option value = "PYTHON">PYTHON</option>
+				<option value = "C#">C#</option>
+				<option value = "ANDROID">ANDROID</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td align = 'right' width = 35%>
+			<label for = ' salary'>Salary : </label>
+		</td>
+		<td align = 'center' width = 65%>
+			<input type = 'text' name = 'salary'/>
+		</td>
+	</tr>
+	<tr>
+		<td align = 'right' width = 35%>
+			<label for = 'address'>Address : </label>
+		</td>
+		<td align = 'center' width = 65%>
+			<input type = 'text' name = 'address'/>
+		</td>
+	</tr>
+	<tr>
+		<td width = 35%></td>
+		<td align = 'center' width =  65% >
+			<input type = submit class="btn btn-danger" name = submit/>
+		</td>
+	</tr>
+</table>
+<form>
+
+</body>
+<html>
